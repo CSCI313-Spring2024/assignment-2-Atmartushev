@@ -1,0 +1,275 @@
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+body {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+.navbar-header-name {
+  font-size: 3rem;
+}
+
+.navbar-header-name,
+.navbar-header-sub {
+  color: black;
+  text-decoration: none; /* Optional: Removes underline from links */
+  margin-right: 20px; /* Adds spacing between links */
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.image-overlay {
+  background-image: url("resources/images/Love-231.jpg");
+  background-size: cover;
+  background-position: center 25%;
+  height: 50vh;
+  position: relative;
+  color: white;
+}
+
+.image-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(7, 1, 1, 0.5);
+  box-sizing: border-box; /* Ensures the border width does not add to the element's size */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Keeps text color white for better visibility */
+  background-color: rgba(
+    85,
+    84,
+    84,
+    0.7
+  ); /* Dark grey background with some transparency */
+  padding: 20px; /* Adds some space around the text */
+  max-width: 80%; /* Ensures the text box doesn't span the entire width of the screen */
+  text-align: center; /* Ensures text is centered within the box */
+}
+
+.class-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px; /* Controls the space between items */
+}
+
+.black-text {
+  color: black;
+}
+a {
+  color: black;
+}
+body {
+  margin-top: 20px;
+}
+
+.table-responsive th,
+.table-responsive td {
+  border: 1px solid #00a2a7; /* Apply border to table headers and cells */
+  min-height: 20px; /* Minimum height for table cells */
+  height: 20px; /* Or set a fixed height */
+}
+
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+.bg-sky.box-shadow {
+  box-shadow: 0px 5px 0px 0px #00a2a7;
+}
+
+.bg-orange.box-shadow {
+  box-shadow: 0px 5px 0px 0px #af4305;
+}
+
+.bg-green.box-shadow {
+  box-shadow: 0px 5px 0px 0px #4ca520;
+}
+
+.bg-yellow.box-shadow {
+  box-shadow: 0px 5px 0px 0px #dcbf02;
+}
+
+.bg-pink.box-shadow {
+  box-shadow: 0px 5px 0px 0px #e82d8b;
+}
+
+.bg-purple.box-shadow {
+  box-shadow: 0px 5px 0px 0px #8343e8;
+}
+
+.bg-lightred.box-shadow {
+  box-shadow: 0px 5px 0px 0px #d84213;
+}
+
+.bg-sky {
+  background-color: #02c2c7;
+}
+
+.bg-orange {
+  background-color: #e95601;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: #5bbd2a;
+}
+
+.bg-yellow {
+  background-color: #f0d001;
+}
+
+.bg-pink {
+  background-color: #ff48a4;
+}
+
+.bg-purple {
+  background-color: #9d60ff;
+}
+
+.bg-lightred {
+  background-color: #ff5722;
+}
+
+.padding-15px-lr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.padding-5px-tb {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.margin-10px-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-10px-top {
+  margin-top: 10px;
+}
+.font-size14 {
+  font-size: 14px;
+}
+
+.text-light-gray {
+  color: #d6d5d5;
+}
+.font-size13 {
+  font-size: 13px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.schedule-section {
+  flex: 5; /* Takes up 5/8 of the space */
+  padding-left: 20px; /* Optional: Adds some space between the sections */
+  list-style-type: none;
+}
+
+.favorites-section {
+  background-color: #fff; /* Assuming white background; */
+  flex: 3; /* Takes up 5/8 of the space */
+  padding: 20px;
+  list-style-type: none;
+}
+
+.image-text-overlay-gpt {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.image-text-overlay-gpt img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.text-block-gpt {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 75px; /* Adjust distance from bottom of the image */
+
+  background-color: #fff; /* Match the background color of the section/page */
+  padding: 2px 5px; /* Padding around the text */
+  transform: translateX(
+    75%
+  ); /* Center the block horizontally relative to its original position */
+}
+
+.favorites-section ul {
+  list-style-type: none; /* Removes bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.favorites-section li {
+  margin: 0; /* Optional: Ensures no margin around list items */
+  padding: 0; /* Optional: Ensures no padding inside list items */
+}
+
+.image-text-overlay-yt {
+  position: relative;
+  display: inline-block;
+  padding: 150px;
+}
+
+.image-text-overlay-yt img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px; /* Shifts the image to the right by 200 pixels */
+}
+
+.text-block-yt {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 225px;
+  background-color: #fff; /* Match the background color of the section/page */
+  padding: 2px 5px; /* Padding around the text */
+  transform: translateX(
+    25%
+  ); /* Center the block horizontally relative to its original position */
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.list-half {
+  width: 50%;
+}
+
+.header-names {
+  font-size: 3rem;
+}
