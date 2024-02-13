@@ -36,7 +36,7 @@ body {
 .image-overlay {
   background-image: url("resources/images/Love-231.jpg");
   background-size: cover;
-  background-position: center 25%; /* Adjust as needed */
+  background-position: center 25%;
   height: 50vh;
   position: relative;
   color: white;
@@ -49,7 +49,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 10px solid rgba(7, 1, 1, 0.5); /* Adjust border size and opacity */
+  border: 10px solid rgba(7, 1, 1, 0.5);
   box-sizing: border-box; /* Ensures the border width does not add to the element's size */
 }
 
@@ -72,7 +72,7 @@ body {
 
 .class-container {
   display: flex;
-  justify-content: flex-start; /* Adjusts alignment to the start */
+  justify-content: flex-start;
   gap: 20px; /* Controls the space between items */
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 .favorites-section {
-  background-color: #fff; /* Assuming white background; adjust to your page's background */
+  background-color: #fff; /* Assuming white background; */
   flex: 3; /* Takes up 5/8 of the space */
   padding: 20px;
   list-style-type: none;
@@ -203,13 +203,13 @@ body {
 
 .image-text-overlay-gpt {
   position: relative;
-  display: inline-block; /* Adjust as needed */
+  display: inline-block;
   list-style-type: none;
 }
 
 .image-text-overlay-gpt img {
   display: block;
-  width: 200px; /* Adjust based on your layout */
+  width: 200px;
   height: 200px;
 }
 
@@ -236,16 +236,15 @@ body {
   padding: 0; /* Optional: Ensures no padding inside list items */
 }
 
-
 .image-text-overlay-yt {
   position: relative;
-  display: inline-block; /* Adjust as needed */
+  display: inline-block;
   padding: 150px;
 }
 
 .image-text-overlay-yt img {
   display: block;
-  width: 200px; /* Adjust based on your layout */
+  width: 200px;
   height: 200px;
   margin-left: 100px; /* Shifts the image to the right by 200 pixels */
 }
@@ -253,7 +252,7 @@ body {
 .text-block-yt {
   font-size: 2rem;
   position: absolute;
-  bottom: 225px; /* Adjust distance from bottom of the image */
+  bottom: 225px;
   background-color: #fff; /* Match the background color of the section/page */
   padding: 2px 5px; /* Padding around the text */
   transform: translateX(
